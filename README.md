@@ -1,45 +1,72 @@
-# Project Week 1: Hello World - Form Data Mahasiswa
+# 📱 Project Week 1: Hello World - Form Data Mahasiswa ✨
 
-Proyek ini adalah aplikasi Android sederhana yang dibuat menggunakan **Jetpack Compose** untuk memenuhi tugas mata kuliah Pemrograman Mobile. Aplikasi ini berfungsi untuk menginputkan data mahasiswa (Nama dan NIM) dengan validasi input dan tampilan hasil yang interaktif.
-
-## Informasi Mahasiswa
-- **Nama:** Muhammad Rafli Adyatma
-- **NIM:** 23083000157
-- **Kampus:** Universitas Merdeka Malang
+> **Aplikasi Form Input Data Mahasiswa** berbasis Android modern yang dibangun menggunakan **Jetpack Compose** dan **Material Design 3** 🚀
 
 ---
 
-## Snapshots Aplikasi
+## 👤 Informasi Mahasiswa
 
-Berikut adalah tampilan dari setiap state layar pada aplikasi:
+| 📌 Detail | 📝 Keterangan |
+|---|---|
+| 👨‍🎓 **Nama** | **Muhammad Rafli Adyatma** |
+| 🆔 **NIM** | **23083000157** |
+| 🏫 **Kampus** | **Universitas Merdeka Malang** |
+| 📚 **Mata Kuliah** | **Pemrograman Mobile** |
 
-### 1. Tampilan Form Kosong
+---
+
+## 🌟 Fitur Utama
+
+- 📝 **Input Form Interaktif:** Form pengisian Nama Lengkap dan NIM.
+- ⚡ **Validasi Real-Time:** Tombol submit otomatis aktif jika input NIM (8-15 angka) dan Nama sudah valid.
+- 🎨 **Desain Modern (Material 3):** Tampilan responsif, bersih, dan konsisten.
+- 🔄 **Reset State:** Fitur untuk mengosongkan kembali form data secara instan.
+
+---
+
+## 📸 Snapshots Aplikasi
+
+Berikut adalah tampilan dari setiap alur layar pada aplikasi:
+
+### 1. 📝 Tampilan Form Kosong
 ![Form Kosong](snapshots/1_form_kosong.png)
-**Keterangan:**
-Ini adalah tampilan awal saat aplikasi pertama kali dijalankan. Terdapat dua field input utama:
-- **Nama Lengkap:** Menggunakan `OutlinedTextField` dengan icon person.
-- **NIM:** Menggunakan `OutlinedTextField` dengan icon badge yang hanya menerima input angka.
-- **Tombol Submit:** Masih dalam keadaan non-aktif (disabled) karena data belum diisi atau belum valid.
 
-### 2. Pengisian Data & Validasi
-![Form Terisi](snapshots/2_form_filled.png)
-**Keterangan:**
-Pada tahap ini, pengguna telah memasukkan data. 
-- Sistem melakukan validasi secara real-time. NIM harus berupa angka dengan panjang antara 8 hingga 15 karakter.
-- Setelah semua field terisi dengan benar, tombol **Submit Data** akan menjadi aktif (berubah warna).
-
-### 3. Hasil Submit (Success State)
-![Hasil Submit](snapshots/3_form_submitted.png)
-**Keterangan:**
-Setelah tombol submit ditekan, aplikasi akan menampilkan kartu hasil (Result Card) dengan animasi:
-- Menampilkan pesan selamat datang khusus untuk mahasiswa tersebut.
-- Menampilkan Nama dan NIM yang telah diinputkan.
-- Terdapat tombol **Reset Form** untuk menghapus data dan kembali ke tampilan awal jika ingin menginputkan data baru.
+> **Keterangan:**
+> Tampilan awal saat aplikasi pertama kali dibuka:
+> - 👤 **Nama Lengkap:** Menggunakan `OutlinedTextField` dengan ikon pengguna.
+> - 🪪 **NIM:** Menggunakan `OutlinedTextField` khusus angka (*numeric keyboard*).
+> - 🚫 **Tombol Submit:** Non-aktif (*disabled*) hingga seluruh data terisi dengan benar.
 
 ---
 
-## Teknologi yang Digunakan
-- **Kotlin**: Bahasa pemrograman utama.
-- **Jetpack Compose**: Toolkit modern untuk membangun UI Android secara deklaratif.
-- **Material Design 3**: Standar desain UI terbaru dari Google untuk tampilan yang bersih dan modern.
-- **State Management**: Menggunakan `remember` dan `mutableStateOf` untuk menangani perubahan UI secara reaktif.
+### 2. ✏️ Pengisian Data & Validasi
+![Form Terisi](snapshots/2_form_filled.png)
+
+> **Keterangan:**
+> Tahap pengisian form dan pemeriksaan validasi:
+> - 🔍 **Validasi Real-Time:** NIM harus berupa angka dengan rentang panjang **8 hingga 15 karakter**.
+> - 🟢 **Status Aktif:** Setelah data valid, tombol **Submit Data** berubah menjadi aktif dan siap diklik.
+
+---
+
+### 3. 🎉 Hasil Submit (Success State)
+![Hasil Submit](snapshots/3_form_submitted.png)
+
+> **Keterangan:**
+> Tampilan respon setelah tombol submit ditekan:
+> - 🎴 **Result Card:** Kartu hasil serasi yang menampilkan pesan konfirmasi & detail mahasiswa.
+> - 💬 **Pesan Personal:** Menyapa mahasiswa sesuai nama & NIM yang dimasukkan.
+> - 🔄 **Tombol Reset Form:** Menghapus input dan mengembalikan layar ke state awal.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- 🔤 **Kotlin** — Bahasa pemrograman utama untuk pengembangan Android.
+- 🧩 **Jetpack Compose** — Toolkit UI deklaratif modern bawaan Google.
+- 🎨 **Material Design 3** — Component library & guideline UI/UX terkini.
+- ⚡ **State Management** — Pengelolaan UI state reaktif dengan `remember` & `mutableStateOf`.
+
+---
+
+<p align="center">Made with ❤️ by Muhammad Rafli Adyatma</p>
