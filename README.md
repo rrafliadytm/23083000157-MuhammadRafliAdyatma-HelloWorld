@@ -1,4 +1,4 @@
-# 📱 Project Week 1: Hello World - Form Data Mahasiswa ✨
+# 📱 Project Week 1: Hello World ✨
 
 > **Aplikasi Form Input Data Mahasiswa** berbasis Android modern yang dibangun menggunakan **Jetpack Compose** dan **Material Design 3** 🚀
 
