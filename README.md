@@ -68,5 +68,3 @@ Berikut adalah tampilan dari setiap alur layar pada aplikasi:
 - ⚡ **State Management** — Pengelolaan UI state reaktif dengan `remember` & `mutableStateOf`.
 
 ---
-
-<p align="center">Made with ❤️ by Muhammad Rafli Adyatma</p>
